@@ -116,5 +116,10 @@ module.exports = {
         stickerSize: 10 * 1024 * 1024, // 10MB
         messageLength: 4096,
         captionLength: 1024
-    }
+    },
+    // Auto features
+    autoReadStatus: true,
+    autoTyping: true,
+    alwaysOnline: false,
+    alwaysOffline: false
 };
