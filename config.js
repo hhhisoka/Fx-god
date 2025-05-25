@@ -5,7 +5,7 @@ module.exports = {
     
     // Owner configuration
     owner: [
-        '1234567890@s.whatsapp.net', // Replace with actual owner numbers
+        '2250101676111', // Replace with actual owner numbers
     ],
     
     // API Keys (from environment variables)
