@@ -71,7 +71,7 @@ module.exports = {
     // Group settings
     groups: {
         defaultWelcome: true,
-        defaultAntilink: false,
+        defaultAntilink: true,
         defaultAntispam: false,
         defaultEconomy: true,
         defaultRpg: true
@@ -121,5 +121,5 @@ module.exports = {
     autoReadStatus: true,
     autoTyping: true,
     alwaysOnline: false,
-    alwaysOffline: false
+    alwaysOffline: true
 };
