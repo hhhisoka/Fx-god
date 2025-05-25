@@ -1,0 +1,40 @@
+{
+  "name": "anren-fx-god-bot",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "plugins": "plugins"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "baileys",
+    "rpg",
+    "chatbot"
+  ],
+  "author": "anren",
+  "license": "MIT",
+  "description": "Un bot WhatsApp multifonctionnel avec système RPG et nombreux plugins",
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "@whiskeysockets/baileys": "^6.7.17",
+    "axios": "^1.9.0",
+    "chalk": "^5.3.0",
+    "fluent-ffmpeg": "^2.1.3",
+    "form-data": "^4.0.1",
+    "mime-types": "^2.1.35",
+    "moment": "^2.30.1",
+    "node-fetch": "^3.3.2",
+    "pino": "^8.21.0",
+    "qrcode": "^1.5.4",
+    "qrcode-terminal": "^0.12.0",
+    "sharp": "^0.32.6"
+  }
+}
